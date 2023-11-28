@@ -1,0 +1,371 @@
+
+        body {
+            width: 1500px;
+            height: 2200px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            width: 1500px;
+            height: 70px;
+            position: sticky;
+            top: 0px;
+            left: 10px;
+            background-color: black;
+            margin-left: 10px;
+            z-index: 10;
+        }
+
+        .header img {
+            width: 40px;
+            border-radius: 10px;
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+
+        .header span {
+            color: white;
+            position: relative;
+            top: -20px;
+            left: 80px;
+        }
+
+        .header :nth-child(3) {
+            color: white;
+            position: relative;
+            top: -20px;
+            right: -500px;
+            margin-right: 20px;
+        }
+        .header a:hover{
+            color: red;
+        }
+        .header :nth-child(4) {
+            color: white;
+            position: relative;
+            top: -20px;
+            right: -500px;
+            margin-right: 20px;
+        }
+
+        .header :nth-child(5) {
+            color: white;
+            position: relative;
+            top: -20px;
+            right: -500px;
+        }
+
+        .header :nth-child(6) {
+            color: white;
+            position: relative;
+            top: -20px;
+            right: -1100px;
+        }
+
+        .header :nth-child(7) {
+            color: white;
+            position: relative;
+            top: -20px;
+            left: 1100px;
+        }
+
+        .header :nth-child(8) {
+            color: white;
+            position: relative;
+            top: -20px;
+            left: 1100px;
+        }
+
+        .div1 {
+            position: absolute;
+            left: 10px;
+        }
+
+        .div2 {
+            width: 1500px;
+            height: 100px;
+            position: absolute;
+            top: 500px;
+            left: 10px;
+        }
+
+        .div2 li a,
+        span {
+            color: white;
+            text-align: center;
+            margin-right: 10px;
+            position: relative;
+            left: 400px;
+        }
+
+        .div2 li span:hover {
+            color: orange;
+        }
+
+        .div2 li a:hover {
+            color: orange;
+        }
+
+        .div3 {
+            width: 200px;
+            height: 40px;
+            background-color: red;
+            border-radius: 40px;
+            position: absolute;
+            top: 480px;
+            left: 1000px;
+        }
+
+        .div3 a {
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+            left: 70px;
+        }
+
+        .box {
+            width: 1500px;
+            height: 1500px;
+            background-color: black;
+            position: absolute;
+            top: 535px;
+            left: 10px;
+        }
+
+        .a {
+            position: relative;
+            top: 100px;
+            z-index: 10;
+        }
+
+        .a:nth-child(1) {
+            width: 200px;
+            height: 40px;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid white;
+        }
+
+        .a:nth-child(1) img {
+            position: relative;
+            top: 10px;
+            left: 60px;
+        }
+
+        .inner li {
+            border: 1px solid white;
+            text-align: center;
+            width: 200px;
+            height: 40px;
+            background-color: black;
+            line-height: 40px;
+            display: none;
+        }
+
+        .inner>li a {
+            color: white;
+        }
+
+        .a>li:hover li {
+            display: block;
+        }
+
+        .div4 {
+            position: absolute;
+            top: 600px;
+            left: 1000px;
+        }
+
+        .div4 li span,
+        a {
+            color: white;
+        }
+
+        .div4 li span {
+            position: relative;
+            left: 10px;
+        }
+
+        .div4 li a:hover {
+            color: red;
+        }
+
+        .div5 {
+            width: 1500px;
+            height: auto;
+            position: absolute;
+            top: 800px;
+            left: 10px;
+        }
+
+        .div5 img {
+            margin: 20px;
+        }
+
+        .div5 img:nth-child(4) {
+            position: relative;
+            top: -100px;
+        }
+
+        .div5 img:nth-child(6) {
+            position: relative;
+            top: -100px;
+        }
+
+        .div5 img:hover {
+            opacity: 0.5;
+        }
+        .demo1{
+            width: 300px;
+            height: auto;
+            color: white;
+            position: absolute;
+            top: 250px;
+            display: none;
+        }
+        .demo1 img{
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        .div5 :nth-child(1):hover~.demo1{
+            display: block;
+        }
+        .demo2{
+            width: 300px;
+            height: auto;
+            color: white;
+            position: absolute;
+            top: 250px;
+            left: 465px;
+            display: none;
+        }
+        .demo2 img{
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        .div5 :nth-child(2):hover~.demo2{
+            display: block;
+        }
+        .demo3{
+            width: 300px;
+            height: auto;
+            color: white;
+            position: absolute;
+            top: 250px;
+            left: 930px;
+            display: none;
+        }
+        .demo3 img{
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        .div5 :nth-child(3):hover~.demo3{
+            display: block;
+        }
+        .demo4{
+            width: 300px;
+            height: auto;
+            color: white;
+            position: absolute;
+            top: 750px;
+            left: 20px;
+            display: none;
+        }
+        .demo4 img{
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        .div5 :nth-child(4):hover~.demo4{
+            display: block;
+        }
+        .demo5{
+            width: 300px;
+            height: auto;
+            color: white;
+            position: absolute;
+            top: 850px;
+            left: 465px;
+            display: none;
+        }
+        .demo5 img{
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        .div5 :nth-child(5):hover~.demo5{
+            display: block;
+        }
+        .demo6{
+            width: 300px;
+            height: auto;
+            color: white;
+            position: absolute;
+            top: 750px;
+            left: 930px;
+            display: none;
+        }
+        .demo6 img{
+            position: relative;
+            top: 20px;
+            left: 200px;
+        }
+        .div5 :nth-child(6):hover~.demo6{
+            display: block;
+        }
+        .div6{
+            position: absolute;
+            top: 2050px;
+            left: 10px;
+        }
+        .div6 img{
+            border-radius: 5px;
+            position: relative;
+            left: 30px;
+            top: 30px;
+        }
+        .div6 span{
+            line-height: 30px;
+            position: relative;
+            left: 100px;
+            top: -50px;
+            color: black;
+        }
+        .div7{
+            width: 200px;
+            height: auto;
+            position: absolute;
+            top: 2050px;
+            left: 1300px;
+        }
+        .div7 img{
+            position: relative;
+            top: 40px;
+        }
+        .div7 span{
+            color: black;
+            position: relative;
+            left: -180px;
+            top: 32px;
+        }
+    

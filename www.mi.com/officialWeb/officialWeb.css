@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1519px;
+    position: relative;
+}
+
+.container>div:nth-child(1) {
+    position: absolute;
+    width: 1519px;
+    height: 80px;
+    background-color: aliceblue;
+    z-index: 999;
+    opacity: 0.5;
+}
+
+header {
+    width: 1519px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 666;
+}
+
+header>ul:nth-child(1) {
+    height: 80px;
+    text-align: center;
+    width: 1200px;
+    margin-left: 115px;
+    display: inline-block;
+}
+
+header>ul:nth-child(1) li {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 18px;
+    opacity: 0.9;
+}
+
+header>ul:nth-child(1) li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header>ul:nth-child(1) li:nth-child(2) a {
+    color: #ff6900;
+}
+
+header>ul:nth-child(1) li a:hover {
+    color: #ff6900;
+}
+
+header>ul:nth-child(1) li:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+header>ul:nth-child(1) li:nth-child(1):hover {
+    scale: 1.2;
+}
+
+header>ul:nth-child(2) {
+    height: 80px;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header>ul:nth-child(2) li {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+}
+
+header>ul:nth-child(2) li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header>ul:nth-child(2) li a:hover {
+    color: #ff6900;
+}
+
+header>ul:nth-child(2) li:nth-child(2) a:hover {
+    color: white;
+    cursor: auto;
+}
+
+.container section {
+    width: 1519px;
+    height: 640px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.container section ul:nth-child(1) li img {
+    width: 1519px;
+    height: 640px;
+}
+
+.container section:nth-of-type(1) ul {
+    width: 300%;
+    animation: carousel 10s linear infinite;
+}
+
+.container section:nth-of-type(2) ul {
+    width: 300%;
+    animation: carousel 12s linear .5s infinite;
+}
+
+.container section:nth-of-type(3) ul {
+    width: 300%;
+    animation: carousel 11s linear 1s infinite;
+}
+
+.container section:nth-of-type(4) ul {
+    width: 300%;
+    animation: carousel 10s linear infinite;
+}
+
+.container section ul:nth-child(1) li {
+    width: 33.3%;
+    float: left;
+}
+
+.container section:nth-of-type(1) {
+    top: 80px;
+    z-index: 555;
+}
+
+.container section:nth-of-type(2) {
+    top: 730px;
+}
+
+.container section:nth-of-type(3) {
+    top: 1380px;
+}
+
+.container section:nth-of-type(4) {
+    top: 2025px;
+}
+
+.container section:nth-of-type(5) {
+    top: 2670px;
+}
+
+.container section:nth-of-type(5) img {
+    width: 1519px;
+    height: 640px;
+}
+
+.container section:nth-of-type(6) {
+    top: 3320px;
+}
+
+.container section:nth-of-type(6) div {
+    position: absolute;
+    top: 0;
+    width: 759.5px;
+    height: 420px;
+    box-sizing: border-box;
+}
+
+.container section:nth-of-type(6) div:nth-child(1) {
+    left: 0;
+    background: url(image/s14.jpg) no-repeat;
+    background-size: contain;
+}
+
+.container section:nth-of-type(6) div:nth-child(2) {
+    left: 759px;
+    background: url(image/s15.jpg) no-repeat;
+    background-size: contain;
+}
+
+.container section:nth-of-type(7) {
+    top: 3820px;
+}
+
+.container section:nth-of-type(7) dl {
+    padding: 10px;
+    position: absolute;
+    left: 160px;
+    height: 300px;
+}
+
+.container section:nth-of-type(7) dl dt {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.container section:nth-of-type(7) dl dd {
+    padding-top: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.container section:nth-of-type(7) dl dd a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container section:nth-of-type(7) dl dd a:hover {
+    color: #ff6900;
+}
+
+.container section:nth-of-type(7) dl:nth-child(1) {
+    left: 210px;
+}
+
+.container section:nth-of-type(7) dl:nth-child(2) {
+    left: 400px;
+}
+
+.container section:nth-of-type(7) dl:nth-child(3) {
+    left: 600px;
+}
+
+.container section:nth-of-type(7) dl:nth-child(4) {
+    left: 790px;
+}
+
+.container section:nth-of-type(7) dl:nth-child(5) {
+    left: 970px;
+}
+
+.container section:nth-of-type(7)>div {
+    position: absolute;
+    width: 290px;
+    height: 120px;
+    right: 0;
+    top: 0;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.container section:nth-of-type(7)>div {
+    text-align: center;
+}
+
+.container section:nth-of-type(7)>div p:nth-child(1) {
+    color: #ff6900;
+    font-size: 28px;
+    opacity: 0.9;
+}
+
+.container section:nth-of-type(7)>div p:nth-child(2) {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container section:nth-of-type(7)>div h3 {
+    width: 130px;
+    height: 40px;
+    border: 1px solid #ff6900;
+    display: inline-block;
+    line-height: 40px;
+    margin-top: 5px;
+    color: #ff6900;
+    font-weight: 500;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.container section:nth-of-type(7)>div h3 span {
+    width: 27px;
+    height: 27px;
+    background: url(image/s33.png) no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    display: inline-block;
+    color: black;
+}
+
+.container section:nth-of-type(7)>div h3:hover {
+    scale: 1.2;
+}
+
+footer {
+    width: 1519px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 4300px;
+    background-color: #fafafa;
+}
+
+footer div {
+    width: 1300px;
+    height: 220px;
+    margin: 35px auto;
+}
+
+footer div p {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    padding: 4px
+}
+
+footer div p:nth-child(1),
+p:nth-child(2) {
+    color: black;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+footer div ul li {
+    width: 164px;
+    height: 50px;
+    display: inline-block;
+}
+
+footer div ul li:hover {
+    scale: 1.05;
+}
+
+footer div:nth-of-type(1) ul li:nth-child(1) img {
+    width: 164px;
+    height: 50px;
+}
+
+footer div:nth-of-type(1) ul li:nth-child(2) img {
+    width: 164px;
+    height: 50px;
+}
+
+footer div:nth-of-type(1) ul li:nth-child(4) img {
+    width: 164px;
+    height: 50px;
+}
+
+footer>img {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: all 1s linear 0s;
+}
+
+footer>img:hover {
+    scale: 0.7;
+}
+
+footer div:nth-of-type(2) {
+    position: absolute;
+    width: 368px;
+    height: 30px;
+    bottom: -28px;
+    left: 50%;
+    margin-left: -184px;
+}
+
+@keyframes carousel {
+    0% {
+        transform: translate(0);
+    }
+
+    30% {
+        transform: translateX(0);
+    }
+
+    35% {
+        transform: translateX(-33.3%);
+    }
+
+    65% {
+        transform: translateX(-33.3%);
+    }
+
+    70% {
+        transform: translateX(-66.6%);
+    }
+
+    100% {
+        transform: translate(-66.6%);
+    }
+}
+
+.one {
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    left: 46%;
+
+    margin-left: -60px;
+    background-color: #b2b2b2;
+}
+
+.one>div {
+    width: 120px;
+    height: 5px;
+    background-color: #b2b2b2;
+    animation: identifier 3.5s linear 1;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+.container section:nth-of-type(1) .one {
+    top: 600px;
+}
+
+.container section:nth-of-type(1) div:nth-of-type(2) {
+    left: 54%;
+}
+
+.container section:nth-of-type(1) div:nth-of-type(1)>div {
+    background-color: #ff6900;
+}
+
+.container section:nth-of-type(1) div:nth-of-type(2)>div {
+    animation: identifier 3.5s linear 3.4s 1;
+}
+
+.container section .left_orient {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    cursor: pointer;
+    animation: happy 1s linear 0s infinite;
+}
+@keyframes happy{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+.container section .right_orient {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    cursor: pointer;
+    animation: happy 1s linear 0s infinite;
+}
+
+.container section:nth-of-type(2) .one {
+    top: 600px;
+}
+
+.container section:nth-of-type(2) div:nth-of-type(2) {
+    left: 54%;
+}
+
+.container section:nth-of-type(2) div:nth-of-type(1)>div {
+    background-color: #ff6900;
+}
+
+.container section:nth-of-type(2) div:nth-of-type(2)>div {
+    animation: identifier 3.5s linear 3.4s 1;
+}
+
+.container section:nth-of-type(1)>img:nth-of-type(1) {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.container section:nth-of-type(1)>img:nth-of-type(2) {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.container section:nth-of-type(3) .one {
+    top: 600px;
+}
+
+.container section:nth-of-type(3) div:nth-of-type(2) {
+    left: 54%;
+}
+
+.container section:nth-of-type(3) div:nth-of-type(1)>div {
+    background-color: #ff6900;
+}
+
+.container section:nth-of-type(3) div:nth-of-type(2)>div {
+    animation: identifier 3.5s linear 3.4s 1;
+}
+
+.container section:nth-of-type(4) .one {
+    top: 600px;
+}
+
+.container section:nth-of-type(4) div:nth-of-type(2) {
+    left: 54%;
+}
+
+.container section:nth-of-type(4) div:nth-of-type(1)>div {
+    background-color: #ff6900;
+}
+
+.container section:nth-of-type(4) div:nth-of-type(2)>div {
+    animation: identifier 3.5s linear 3.4s 1;
+}
+
+
+@keyframes identifier {
+    0% {
+        width: 1px;
+        background-color: #ff6900;
+    }
+
+
+    100% {
+        width: 120px;
+        background-color: #ff6900;
+    }
+}
+
+.container>div:nth-last-of-type(1)>a {
+    position: fixed;
+    bottom: 5px;
+    right: 60px;
+    width: 60px;
+    height: 90px;
+    cursor: pointer;
+    z-index: 444;
+}

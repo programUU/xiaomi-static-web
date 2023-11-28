@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.box {
+    width: 1519px;
+    height: 1000px;
+    background-color: rgb(243, 241, 241);
+}
+
+.hang {
+    width: 1519px;
+    height: 76px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.hang img {
+    width: 145px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.hang ul {
+    height: 76px;
+    /* background-color: aqua; */
+    float: right;
+    margin-right: 255px;
+}
+
+.hang ul li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 76px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.hang ul li:nth-child(1) {
+    font-weight: bolder;
+}
+
+.hang ul li:hover {
+    color: orange;
+}
+
+.tupian1 {
+    width: 1519px;
+    height: 448px;
+
+}
+
+.tupian1 img {
+    margin-top: 65px;
+    width: 100%;
+    height: 448px;
+}
+
+.tupian1wz p {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+.tupian1wz p:nth-child(1) {
+    margin-top: -230px;
+}
+
+.wenzi {
+    text-indent: 2em;
+    font-size: 18px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin-top: 250px;
+}
+
+.box2 {
+    width: 100%;
+    height: 1000px;
+    /* background-color: brown; */
+    margin-top: 130px;
+}
+
+.hh {
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+}
+
+.hh h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.tpkuai {
+    margin-top: 50px;
+    width: 1005px;
+    height: 505px;
+    /* background-color: aqua; */
+    position: relative;
+    overflow: hidden;
+
+}
+
+.tpkuai img {
+    width: 500px;
+    height: 250px;
+    float: left;
+}
+
+.tpkuai .a:nth-child(1) {
+    float: left;
+}
+
+.tpkuai .b:nth-child(2) {
+    float: right;
+
+}
+
+.tpkuai .c:nth-child(3) {
+    float: left;
+    margin-top: 5px;
+}
+
+.tpkuai .d:nth-child(4) {
+    float: right;
+    margin-top: 5px;
+}
+
+.a {
+    width: 500px;
+    height: 250px;
+    /* background-color: red; */
+    margin-left: 0px;
+    position: relative;
+}
+
+.a1 {
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.a1 p {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 45px;
+    background-color: rgb(10, 10, 254);
+    color: white;
+    margin-left: 0px;
+}
+
+.a1 p:hover {
+    color: black;
+}
+
+.b1 {
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    right: 110px;
+}
+
+.b1 p {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 45px;
+    background-color: rgb(10, 10, 254);
+    color: white;
+    margin-left: 0px;
+}
+
+.b1 p:hover {
+    color: black;
+}
+
+.c1 {
+    font-size: 20px;
+    position: absolute;
+    top: 285px;
+    left: 33px;
+
+}
+
+.c1 p {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 45px;
+    background-color: rgb(10, 10, 254);
+    color: white;
+    margin-left: 0px;
+}
+
+.c1 p:hover {
+    color: black;
+}
+
+
+.d1 {
+    font-size: 20px;
+    position: absolute;
+    top: 285px;
+    right: 87px;
+
+}
+
+.d1 p {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 45px;
+    background-color: rgb(10, 10, 254);
+    color: white;
+    margin-left: 0px;
+}
+
+.d1 p:hover {
+    color: black;
+}
+
+
+.box3 {
+    width: 1000px;
+    height: 250px;
+    /* background-color: aquamarine; */
+    margin-top: 45px;
+    position: relative;
+    /* overflow: hidden;  */
+}
+
+.box3 img {
+    width: 80px;
+    height: 80px;
+    /* float: left; */
+    /* padding-left: 145px;
+    padding-top: 30px; */
+}
+
+.qq {
+    width: 260px;
+    height: 250px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.qq img {
+    margin-top: 40px;
+    margin-left: 90px;
+
+}
+
+.qq span {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+
+.ww {
+    width: 260px;
+    height: 250px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.ww img {
+    margin-top: 40px;
+    margin-left: 90px;
+
+}
+
+.ww span {
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 78px;
+}
+
+.ee {
+    width: 260px;
+    height: 250px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+
+.ee img {
+    margin-top: 40px;
+    margin-left: 90px;
+
+}
+
+.ee span {
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 78px;
+}
+
+.rr {
+    width: 260px;
+    height: 250px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0;
+    left: 750px;
+}
+
+.rr img {
+    margin-top: 40px;
+    margin-left: 90px;
+
+}
+
+.rr span {
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 78px;
+}
+
+.box4 {
+    margin-top: 50px;
+    width: 1040px;
+    height: 400px;
+    /* background-color: palegreen; */
+}
+
+.box4 h1 {
+    text-align: center;
+
+}
+
+.box4 img {
+    margin-top: 30px;
+    width: 200px;
+    height: 90px;
+    float: left;
+}
+
+.box4 .m img {
+    margin-left: 10px;
+}
+
+.box4 .mm img {
+    margin-left: 10px;
+}
+
+.box4 .nn img {
+    margin-left: 10px;
+}
+
+.box4 .nnn img {
+    margin-left: 10px;
+}
+
+.box4 .l img {
+    margin-left: 10px;
+}
+
+.box4 .ll img {
+    margin-left: 10px;
+}
+
+.box4 .k img {
+    margin-left: 10px;
+}
+
+.box4 .kk img {
+    margin-left: 10px;
+}
+
+
+/* 底部 */
+.db {
+    width: 1519px;
+    height: 600px;
+    background-color: rgb(29, 28, 28);
+    position: relative;
+}
+
+.dbleft {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.db .v {
+    margin-left: 245px;
+    color: white;
+    font-size: 1px;
+}
+
+.v li:nth-child(1) {
+    font-size: 40px;
+}
+
+.v li:nth-child(3) {
+    font-size: 50px;
+    margin-top: 45px;
+}
+
+.v1 {
+    width: 80px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 245px;
+}
+
+.v li:nth-child(5) {
+    margin-top: 55px;
+}
+
+.v li:nth-child(6) {
+    margin-top: 65px;
+}
+
+.dbright {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    overflow: hidden;
+}
+
+.dbright img {
+    width: 90px;
+    height: 90px;
+}
+
+.dbright .t {
+    float: left;
+    margin-top: 50px;
+}
+
+.dbright .tt {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.dbright li {
+    color: white;
+    display: inline-block;
+}
+
+.dbright p {
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+}

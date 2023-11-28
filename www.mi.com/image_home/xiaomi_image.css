@@ -1,0 +1,622 @@
+body {
+    width: 1500px;
+    height: 4620px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 1500px;
+    height: 80px;
+    margin: 0 auto;
+    margin-left: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    left: 20px;
+    z-index: 10;
+}
+
+
+header img {
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+header span {
+    color: white;
+    position: relative;
+    top: -20px;
+    left: 70px;
+}
+
+header a {
+    color: white;
+}
+header a:hover{
+    color: #ff6a00;
+}
+
+header :nth-child(3) {
+    position: relative;
+    left: 500px;
+    top: -20px;
+    margin-right: 50px;
+}
+
+header :nth-child(4) {
+    position: relative;
+    left: 500px;
+    top: -20px;
+    margin-right: 50px;
+}
+
+header :nth-child(5) {
+    position: relative;
+    left: 500px;
+    top: -20px;
+}
+
+header :nth-child(6) {
+    position: relative;
+    left: 1000px;
+    top: -20px;
+    margin-right: 20px;
+}
+
+header :nth-child(7) {
+    position: relative;
+    left: 1000px;
+    top: -20px;
+    margin-right: 20px;
+}
+
+header :nth-child(8) {
+    position: relative;
+    left: 1000px;
+    top: -20px;
+}
+
+.box {
+    width: 1500px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: 10px;
+}
+
+.box div {
+    width: 3000px;
+    height: auto;
+    overflow: hidden;
+    animation: move 5s linear infinite;
+}
+
+.box div img {
+    float: left;
+}
+
+.video1 {
+    position: relative;
+    top: -1100px;
+    z-index: -1;
+}
+
+.video2 {
+    position: relative;
+    top: -1100px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+
+    15% {
+        transform: translateX(0px);
+    }
+
+    30% {
+        transform: translateX(-1500px);
+    }
+
+    60% {
+        transform: translateX(-1500px);
+    }
+
+    75% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.button1 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    position: relative;
+    top: -500px;
+    left: 700px;
+    opacity: 1;
+}
+
+.button2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    position: relative;
+    top: -500px;
+    left: 2100px;
+    opacity: 1;
+}
+
+button:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+button:hover video {
+    z-index: 1;
+}
+
+.demo {
+    position: absolute;
+    top: 1000px;
+    left: 550px;
+    z-index: 1;
+}
+
+.p1 {
+    position: absolute;
+    top: 1050px;
+    left: 640px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.span1 {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 40px;
+    position: absolute;
+    top: 1200px;
+    left: 630px;
+}
+
+.span1 a {
+    position: relative;
+    left: 50px;
+    top: 8px;
+    color: black;
+}
+
+.span1:hover {
+    background-color: orange;
+}
+
+.box2 {
+    width: 1500px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 1300px;
+    z-index: 1;
+}
+
+.box2 div {
+    width: 15000px;
+    overflow: hidden;
+    transform: translate(0px);
+    animation: move2 40s infinite linear;
+}
+
+.box2 div img {
+    float: left;
+}
+
+@keyframes move2 {
+    0% {
+        transform: translate(0px);
+    }
+
+    2% {
+        transform: translate(0px);
+    }
+
+    5% {
+        transform: translate(-1500px);
+    }
+
+    8% {
+        transform: translate(-1500px);
+    }
+
+    10% {
+        transform: translate(-3000px);
+    }
+
+    12% {
+        transform: translate(-3000px);
+    }
+
+    15% {
+        transform: translate(-4500px);
+    }
+
+    17% {
+        transform: translate(-4500px);
+    }
+
+    20% {
+        transform: translate(-6000px);
+    }
+
+    22% {
+        transform: translate(-6000px);
+    }
+
+    25% {
+        transform: translate(-7500px);
+    }
+
+    27% {
+        transform: translate(-7500px);
+    }
+
+    30% {
+        transform: translate(-9000px);
+    }
+
+    32% {
+        transform: translate(-9000px);
+    }
+
+    35% {
+        transform: translate(-10500px);
+    }
+
+    37% {
+        transform: translate(-10500px);
+    }
+
+    40% {
+        transform: translate(-12000px);
+    }
+
+    42% {
+        transform: translate(-12000px);
+    }
+
+    45% {
+        transform: translate(-13500px);
+    }
+
+    47% {
+        transform: translate(-13500px);
+    }
+
+    50% {
+        transform: translate(-15000px);
+    }
+
+    52% {
+        transform: translate(-13500px);
+    }
+
+    55% {
+        transform: translate(-13500px);
+    }
+
+    57% {
+        transform: translate(-12000px);
+    }
+
+    60% {
+        transform: translate(-12000px);
+    }
+
+    62% {
+        transform: translate(-10500px);
+    }
+
+    65% {
+        transform: translate(-10500px);
+    }
+
+    67% {
+        transform: translate(-9000px);
+    }
+
+    70% {
+        transform: translate(-9000px);
+    }
+
+    72% {
+        transform: translate(-7500px);
+    }
+
+    75% {
+        transform: translate(-7500px);
+    }
+
+    77% {
+        transform: translate(-6000px);
+    }
+
+    80% {
+        transform: translate(-6000px);
+    }
+
+    82% {
+        transform: translate(-4500px);
+    }
+
+    85% {
+        transform: translate(-4500px);
+    }
+
+    87% {
+        transform: translate(-3000px);
+    }
+
+    90% {
+        transform: translate(-3000px);
+    }
+
+    92% {
+        transform: translate(-1500px);
+    }
+
+    95% {
+        transform: translate(-1500px);
+    }
+
+    97% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.a {
+    position: absolute;
+    top: 2100px;
+    left: 600px;
+    text-align: center;
+}
+
+.b {
+    position: absolute;
+    top: 2200px;
+    left: 490px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.div1 {
+    width: 1500px;
+    height: auto;
+    position: absolute;
+    top: 2500px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.box3 {
+    width: 1500px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 3355px;
+    left: 10px;
+}
+
+.box3 div {
+    width: 4500px;
+    height: auto;
+    overflow: hidden;
+    transform: translate(0px);
+    animation: move3 20s linear infinite;
+}
+
+.box3 div img {
+    float: left;
+}
+
+@keyframes move3 {
+    0% {
+        transform: translate(0px);
+    }
+
+    10% {
+        transform: translate(0px);
+    }
+
+    20% {
+        transform: translate(-1500px);
+    }
+
+    30% {
+        transform: translate(-1500px);
+    }
+
+    40% {
+        transform: translate(-3000px);
+    }
+
+    50% {
+        transform: translate(-3000px);
+    }
+
+    60% {
+        transform: translate(-1500px);
+    }
+
+    70% {
+        transform: translate(-1500px);
+    }
+
+    80% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: -2300px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.d {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: -900px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.e {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 500px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.f {
+    position: relative;
+    top: -100px;
+}
+
+.div2 {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 3900px;
+    left: 30px;
+}
+
+.div2 :nth-child(2) {
+    position: relative;
+    top: -54px;
+    z-index: -1;
+}
+
+.div2:hover.div2 :nth-child(2) {
+    z-index: 2;
+}
+
+.div3 {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 3900px;
+    left: 1430px;
+}
+
+.div3 :nth-child(2) {
+    position: relative;
+    top: -73px;
+    z-index: -1;
+}
+
+.div3:hover.div3 :nth-child(2) {
+    z-index: 2;
+}
+
+.div4 {
+    width: 1500px;
+    position: absolute;
+    top: 4300px;
+    left: 10px;
+    overflow: hidden;
+}
+
+hr {
+    color: gray;
+    width: 1500px;
+    height: 2px;
+    position: absolute;
+    top: 4500px;
+    left: 10px;
+}
+
+.div5 img {
+    position: absolute;
+    top: 3500px;
+    left: 30px;
+    border-radius: 20px;
+}
+
+.z {
+    position: absolute;
+    top: 4530px;
+    left: 100px;
+}
+
+.g {
+    position: absolute;
+    top: 4550px;
+    left: 1300px;
+}
+
+.h>img {
+    position: relative;
+    top: 3512px;
+    left: 1400px;
+}
+
+.i {
+    position: absolute;
+    top: 4540px;
+    left: 1450px;
+}
+
+.div6 {
+    width: 100px;
+    height: auto;
+    position: sticky;
+    top: 200px;
+    left: 1400px;
+    z-index: 10;
+}
